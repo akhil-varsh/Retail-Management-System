@@ -62,7 +62,7 @@ function App() {
                 </Routes>
               </Layout>
             ) : (
-              // Redirect to login if not authenticated
+              
               <Navigate to="/login" />
             )
           }
